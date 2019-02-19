@@ -6,7 +6,7 @@ import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 
 
 
-import App from './component/App'
+import App from './react-router/App'
 
 ReactDOM.render(
     <App></App>,  

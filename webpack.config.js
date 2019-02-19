@@ -7,7 +7,8 @@ const config = {
     entry: './src/index.js', // file duoc bundle dau tien
     output: {
         filename: 'bundle.js', // ten file
-        path: path.resolve(__dirname, 'dist') // vi tri file
+        path: path.resolve(__dirname, 'dist'), // vi tri file
+        publicPath: '/'
     },
 //STT: 2 -------------------------------------------------------------------------------------------------------------------------------------------
     // config for BABEL-LOADER : https://webpack.js.org/loaders/babel-loader
@@ -76,6 +77,9 @@ const config = {
             'window.$' : 'jquery'
         }),
     ],
+    devServer: {
+        historyApiFallback: true,
+    },
 
     mode: 'development' // set MODE cho webpack
 }
