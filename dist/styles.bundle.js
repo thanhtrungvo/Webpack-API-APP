@@ -11,14 +11,14 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./node
 
 /***/ }),
 
-/***/ "./src/react-router/Menu.css":
-/*!***********************************!*\
-  !*** ./src/react-router/Menu.css ***!
-  \***********************************/
+/***/ "./src/component/Menu.css":
+/*!********************************!*\
+  !*** ./src/component/Menu.css ***!
+  \********************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/react-router/Menu.css?");
+eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./src/component/Menu.css?");
 
 /***/ })
 

@@ -1,0 +1,11 @@
+.navbar-fix{
+    padding: 0px;
+}
+.navbar-fix .nav-item.active{
+    background-color: rgb(156, 209, 209);
+}
+.navbar-fix .nav-item.active a.active{
+    color: black;
+    font-weight: bolder;
+    
+}
